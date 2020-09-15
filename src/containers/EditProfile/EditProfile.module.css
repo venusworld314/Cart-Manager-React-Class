@@ -1,0 +1,101 @@
+.EditProfile {
+    position: relative;
+    height: 100%; 
+    margin-top: 65px;
+}
+
+.wave {
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.editProfileButton {
+    margin-top: 28px !important;
+    height: 48px;
+    font-weight: 700 !important;
+    border-radius: 6px !important;
+    font-size: 18px;
+}
+
+.profileTab {
+    font-weight: bold;
+}
+
+.profileEditArea {
+  grid-area: profileEdit;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.profilePreviewArea {
+    position: relative;
+    /* grid-area: profilePreview; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #f9feff;
+}
+
+.accountUrl {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.67;
+    color: rgb(0, 102, 176);
+    margin: 0px; 
+    margin-right: 20px;
+}
+
+.previewButton {
+    background: #017c96 !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    margin-left: 20px !important;
+}
+
+.mobilePreviewAreaShow {
+    display: block;
+}
+
+.mobilePreviewAreaHide {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .EditProfile {
+        background-color: #ffffff;
+        overflow: hidden;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+            "profileEdit"
+            "profilePreview";
+    }
+
+    .accountUrlArea {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .profilePreviewArea {
+        display: none;
+    }
+
+    .accountUrlArea {
+        display: block;
+        padding: 5px 10px 0;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .EditProfile {
+        margin-top: 58px;
+    }
+}

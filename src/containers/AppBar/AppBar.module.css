@@ -1,0 +1,51 @@
+.grow {
+    flex-grow: 1;
+}
+.appBar {
+    background: linear-gradient(201.44deg, rgba(28, 22, 194, 0.8) -72.2%, rgba(11, 163, 244, 0.8) 87.72%) !important;
+}
+.menuButton {
+    margin-right: 16px;
+}
+.mainPageTab {
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.67;
+    margin: 0;
+}
+.analyticPageTab {
+    margin-left: 16;
+    display: block;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.67;
+    margin: 0,
+}
+.sectionDesktop {
+    display: flex;
+}
+.accountIconLabel {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.67;
+    margin: 0;
+}
+.renderMenu {
+    top: 66px;
+    left: 1725px;
+    padding: 0px 10px;
+} 
+
+.flagEngland {
+    width: 40px;
+    padding-right: 5px;
+}
+
+.flagVietnam {
+    height: 25px;
+    padding-right: 5px;
+}

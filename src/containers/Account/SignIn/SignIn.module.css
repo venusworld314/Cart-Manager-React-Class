@@ -1,0 +1,147 @@
+.loginContent {
+    position: relative;
+    display: block;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: right;
+    width: 500px;
+    margin: 5% auto;
+    padding: 32px;
+  }
+  
+  .loginContent img {
+    height: 140px;
+    border-radius: 50%;
+  }
+  
+  .loginContent h2 {
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+  }
+  
+  .loginContent .titleUp {
+    margin-top: -0.5rem;
+  }
+  
+  .loginContent .input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 3px 0;
+    border-bottom: 2px solid #d9d9d9;
+  }
+  
+  .loginContent .input-div.one {
+    margin-top: 0;
+  }
+
+  .signInButton, .signInFacebookButton, .signInGoogleButton {
+    margin-top: 28px !important;
+    height: 48px;
+    font-weight: 700 !important;
+    border-radius: 6px !important;
+    font-size: 18px;
+  }
+
+  .signInFacebookButton {
+    background: #3b5998 !important;
+    margin-top: 0;
+  }
+
+  .signInGoogleButton {
+    background: #fff !important;
+    margin-bottom: 28px !important;
+  }
+
+  .iconGoogle {
+    margin-right: 10px !important;
+    height: 25px !important;
+  }
+
+  .iconFacebook {
+    margin-right: 10px !important;
+    height: 25px !important;
+  }
+
+  .hoverTextArea {
+    margin-top: 40px;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .loginContent {
+      top: 0;
+      /* left: -45%; */
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    form {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .loginContent {
+      /* left: -12%; */
+      justify-content: center;
+    }
+  
+    .loginContent h2 {
+      /* left: 22%; */
+      font-size: 2rem;
+      margin: 8px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .loginContent {
+      /* left: -28%; */
+      justify-content: center;
+    }
+  
+    .loginContent h2 {
+      font-size: 1.2rem;
+      left: 22.5%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .loginContent {
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width: 321px) {
+    .loginContent {
+      /* left: -40%; */
+      justify-content: center;
+    }
+    .loginContent h2 {
+      font-size: 1.2rem;
+      /* left: 34%; */
+    }
+  
+    .loginContent img {
+      position: relative;
+      /* left: -1%; */
+      height: 80px;
+    }
+  
+    .loginContent p {
+      position: relative;
+      font-size: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+  
+    .title,
+    .titleUp {
+      font-size: 0.75rem;
+    }
+  }
+  

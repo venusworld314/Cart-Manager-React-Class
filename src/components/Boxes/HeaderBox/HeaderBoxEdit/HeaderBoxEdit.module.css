@@ -1,0 +1,173 @@
+.HeaderBoxEdit {
+  position: relative;
+  margin-top: 25px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+    border-bottom: 1px solid grey;
+*/
+
+.ButtonBar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  left: 34%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.ButtonBar a {
+  margin: 5px 15px;
+  color: #2e5077;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  padding-top: 2px;
+}
+
+.ButtonBar span {
+  font-size: 1.5rem;
+  height: 1rem;
+}
+
+.ButtonBarImg {
+  height: 22.5px;
+  padding-right: 10px;
+}
+
+.hideBtn {
+  display: none;
+}
+
+.PageBar {
+  position: relative;
+  display: flex;
+  margin-top: -4.75%;
+  justify-content: center;
+  align-items: center;
+}
+
+.PageBar h4 {
+  font-size: 0.85rem;
+}
+
+.PageBar p {
+  margin-left: 5px;
+  color: darkblue;
+  font-weight: bolder;
+  font-size: 0.85rem;
+}
+
+.PageBar button {
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  background-color: white;
+  border: solid 2px #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
+  padding: 2.5px 8px;
+  font-size: 0.6rem;
+  line-height: 19px;
+  margin-left: 1%;
+  margin-top: 0.25%;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.PageBar button:hover,
+.PageBar button.active {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border: solid 2px #1f1f1f;
+  background: #1f1f1f;
+  color: #fff;
+}
+
+@media screen and (min-width: 2300px) {
+  .PageBar {
+    margin-top: -2%;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2299px) {
+  .PageBar {
+    margin-top: -3.5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ButtonBar {
+    width: 40%;
+    left: 28%;
+  }
+
+  .PageBar {
+    margin-top: -7.5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ButtonBar {
+    width: 80%;
+    left: 7.5%;
+  }
+
+  .PageBar {
+    margin-top: -15%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+
+  .PageBar h4 {
+    font-size: 0.65rem;
+  }
+
+  .PageBar p {
+    font-size: 0.65rem;
+  }
+
+  .PageBar button {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .ButtonBar {
+    width: 90%;
+    left: 2.5%;
+  }
+
+  .PageBar {
+    margin-top: -18%;
+    padding-top: 5%;
+    padding-bottom: 7.5%;
+  }
+
+  .PageBar h4 {
+    font-size: 0.5rem;
+  }
+
+  .PageBar p {
+    font-size: 0.5rem;
+  }
+
+  .PageBar button {
+    font-size: 0.25rem;
+    margin: 0.25px;
+  }
+}

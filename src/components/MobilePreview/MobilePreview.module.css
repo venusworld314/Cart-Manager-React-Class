@@ -1,0 +1,24 @@
+.mobileSocialMediaList {
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.moblieToolBar {
+    background-color: rgb(1, 124, 150);
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 12px;
+    font-weight: bold !important;
+    text-align: left;
+}
+
+.editButton {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin-right: 20px !important;
+    float: right;
+    margin-top: -5px !important;
+}

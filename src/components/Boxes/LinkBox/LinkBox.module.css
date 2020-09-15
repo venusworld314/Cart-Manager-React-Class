@@ -1,0 +1,86 @@
+.LinkBox {
+  position: relative;
+  margin: 25px auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.5px solid #efefef;
+  width: 40%;
+  /* left: 30%; */
+  border-radius: 10px;
+  cursor: pointer;
+
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.LinkBox img {
+  height: 90px;
+  border-radius: 10px;
+  margin: 15px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.LinkBox h2 {
+  margin-left: 18%;
+}
+
+@media screen and (min-width: 2300px) {
+  .LinkBox {
+    width: 20%;
+    left: 40%;
+  }
+
+  .LinkBox h2 {
+    margin-left: 20.5%;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 2299px) {
+  .LinkBox {
+    width: 30%;
+    left: 35%;
+  }
+
+  .LinkBox h2 {
+    margin-left: 22.5%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .LinkBox {
+    width: 60%;
+    /* left: 20%; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .LinkBox {
+    width: 90%;
+    /* left: 5%; */
+  }
+
+  .LinkBox img {
+    height: 80px;
+    border-radius: 12px;
+    margin: 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .LinkBox h2 {
+    margin-left: 15%;
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .LinkBox img {
+    height: 75px;
+    border-radius: 70%;
+    margin: 10px 5px;
+  }
+}
